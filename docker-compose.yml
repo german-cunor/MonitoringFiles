@@ -1,0 +1,6 @@
+services:
+  go:
+    image: germancj/monitoring-agent:latest
+    container_name: go-container
+    environment:
+      SERVER_IP: 34.42.128.119:8001
